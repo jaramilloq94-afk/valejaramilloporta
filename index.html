@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="assets/images/foto valentina.jpeg"icon">
+
+  <title>Página de inicio</title>  
+
+
+      <nav class="custom-navbar">
+
+  <div class="nav-logo">
+    VALENTINA
+  </div>
+
+  <ul class="nav-links">
+
+    <li>
+      <a href="./index.html">
+        Inicio
+      </a>
+    </li>
+
+    <li>
+      <a href="./about.html">
+        Sobre mí
+      </a>
+    </li>
+
+    <li>
+      <a href="./works.html">
+        Trabajos
+      </a>
+    </li>
+
+    <li>
+      <a href="./contact.html">
+        Contacto
+      </a>
+    </li>
+
+    
+</nav>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<!-- Add your site or app content here -->
+  <div class="hero-full-container" style="background-color: #F5E6D3;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper hero-layout">
+            <div class="hero-image-container">
+
+  <div class="hero-glow"></div>
+
+
+
+</div>
+            <div class="text-content">
+              <h1 class="hero-title">
+                VALENTINA
+              </h1>
+
+              <p class="hero-description">
+                Diseñadora gráfica enfocada en branding,
+                ilustración digital y creación de conceptos visuales.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="./works.html" class="btn-main">Ver proyectos</a>
+                <a href="./contact.html" class="btn-secondary">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#F5E6D3;
+  color:#1B263B;
+  font-family:'Space Grotesk', sans-serif;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-title{
+  font-size:clamp(60px, 10vw, 110px);
+  font-weight:800;
+  letter-spacing:-4px;
+  margin-bottom:20px;
+  color:#1B263B;
+  line-height:0.9;
+}
+
+.hero-description{
+  font-size:20px;
+  max-width:650px;
+  line-height:1.7;
+  color:#1B263B;
+  margin-bottom:35px;
+  opacity:0.85;
+}
+
+/* =========================
+   BOTONES
+========================= */
+
+.hero-buttons{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.btn-main{
+  background:#FF6B6B;
+  color:#F5E6D3;
+  padding:14px 30px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.btn-main:hover{
+  transform:translateY(-4px);
+  background:#1B263B;
+  box-shadow:0 10px 25px rgba(255, 107, 107, 0.2);
+}
+
+.btn-secondary{
+  border:2px solid #A78BFA;
+  color:#A78BFA;
+  padding:14px 30px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.btn-secondary:hover{
+  background:#A78BFA;
+  color:#F5E6D3;
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:120px;
+  gap:80px;
+  position:relative;
+  overflow:hidden;
+}
+
+.about-left{
+  flex:1;
+}
+
+.about-right{
+  flex:1;
+}
+
+.about-tag{
+  font-size:14px;
+  letter-spacing:4px;
+  color:#FF6B6B;
+  margin-bottom:30px;
+}
+
+.about-title{
+  font-size:90px;
+  line-height:0.95;
+  font-weight:700;
+  letter-spacing:-3px;
+  color:#1B263B;
+  max-width:700px;
+}
+
+.about-description{
+  font-size:20px;
+  line-height:1.9;
+  color:#1B263B;
+  margin-bottom:50px;
+  max-width:600px;
+  opacity:0.8;
+}
+
+.about-info{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+}
+
+.about-info span{
+  font-size:12px;
+  letter-spacing:3px;
+  color:#FF6B6B;
+  font-weight:600;
+}
+
+.about-info p{
+  font-size:18px;
+  margin-top:8px;
+  color:#1B263B;
+}
+
+/* =========================
+   EFECTO GLOW
+========================= */
+
+.about-hero::before{
+  content:'';
+  position:absolute;
+  width:500px;
+  height:500px;
+  background:#A78BFA;
+  border-radius:50%;
+  filter:blur(140px);
+  top:-100px;
+  right:-100px;
+  opacity:0.15;
+}
+
+.about-left,
+.about-right{
+  position:relative;
+  z-index:2;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:1000px){
+
+  .about-hero{
+    flex-direction:column;
+    padding:60px 30px;
+    gap:60px;
+  }
+
+  .about-title{
+    font-size:55px;
+  }
+
+  .about-description{
+    font-size:18px;
+  }
+
+}
+
+</style>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
